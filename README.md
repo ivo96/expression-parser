@@ -26,7 +26,7 @@ You need to have g++ installed.
 Clone repo
 
 ```
-git clone https://github.com/ivo96/tree-parser.git
+https://github.com/ivo96/expression-parser.git
 ```
 
 Change permissions
