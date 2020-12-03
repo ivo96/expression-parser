@@ -1,6 +1,6 @@
 # Expression Parser
 
-Top down parser for parsing complex expressions into expression tree.
+Top down parser for parsing expressions into abstract syntax tree for arithmetic expressions.
 
 ## Following operators allowed
 
