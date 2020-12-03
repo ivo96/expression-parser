@@ -15,6 +15,6 @@ public:
 	~MathNode();
 	void setLeftMO(Node *left);
 	void setRightMO(Node *right);
-	int Node::getValue();
-	void Node::printNode(int h);
+	virtual int getValue();
+	virtual void printNode(int h);
 };

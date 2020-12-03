@@ -13,6 +13,6 @@ public:
 	LnNode();
 	~LnNode();
 	void setNumberLn(Node* num);
-	int Node::getValue();
-	void Node::printNode(int h);
+	virtual int getValue();
+	virtual void printNode(int h);
 };

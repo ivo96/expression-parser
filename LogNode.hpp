@@ -13,8 +13,8 @@ public:
 
 	LogNode();
 	~LogNode();
-	int Node::getValue();
 	void setNumber(Node *num);
 	void setBase(Node *bs);
-	void Node::printNode(int h);
+	virtual int getValue();
+	virtual void printNode(int h);
 };

@@ -9,6 +9,6 @@ protected:
 public:
 
 	NumNode(int& val);
-	int Node::getValue();
-	void Node::printNode(int h);
+	virtual int getValue();
+	virtual void printNode(int h);
 };
