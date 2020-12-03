@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Node.h"
+#include "Node.hpp"
 
 class LogNode : public Node {
 protected:
@@ -13,8 +13,8 @@ public:
 
 	LogNode();
 	~LogNode();
-	int Node::getValue();
 	void setNumber(Node *num);
 	void setBase(Node *bs);
-	void Node::printNode(int h);
+	virtual int getValue();
+	virtual void printNode(int h);
 };

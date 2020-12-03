@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Node.h"
+#include "Node.hpp"
 
 class IfNode : public Node {
 protected:
@@ -17,6 +17,6 @@ public:
 	void setCondition(BoolNode* cond);
 	void setTrue(Node *tr);
 	void setFalse(Node* fls);
-	void Node::printNode(int h);
-	int Node::getValue();
+	virtual void printNode(int h);
+	virtual int getValue();
 };

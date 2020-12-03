@@ -1,0 +1,1 @@
+g++ -o ./bin/calculator ./src/BoolNode.cpp ./src/Expression.cpp ./src/IfNode.cpp ./src/LnNode.cpp ./src/LogNode.cpp ./src/MathNode.cpp ./src/NumNode.cpp main.cpp

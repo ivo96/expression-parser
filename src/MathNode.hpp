@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Node.h"
+#include "Node.hpp"
 
 class MathNode : public Node {
 protected:
@@ -15,6 +15,6 @@ public:
 	~MathNode();
 	void setLeftMO(Node *left);
 	void setRightMO(Node *right);
-	int Node::getValue();
-	void Node::printNode(int h);
+	virtual int getValue();
+	virtual void printNode(int h);
 };

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Node.h"
+#include "Node.hpp"
 
 class BoolNode : public Node
 {
@@ -9,8 +9,8 @@ public:
 	~BoolNode();
 	void setLeftBO(Node* left);
 	void setRightBO(Node* right);
-	void Node::printNode(int h);
-	int Node::getValue();
+	virtual void printNode(int h);
+	virtual int getValue();
 
 private:
 	char boolOperator;

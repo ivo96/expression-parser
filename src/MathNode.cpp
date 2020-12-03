@@ -1,4 +1,4 @@
-#include "MathNode.h"
+#include "MathNode.hpp"
 
 MathNode::MathNode(char& op)
 	: mathOperator(op), leftMO(NULL), rightMO(NULL)

@@ -1,5 +1,5 @@
-#include "IfNode.h"
-#include "BoolNode.h"
+#include "IfNode.hpp"
+#include "BoolNode.hpp"
 IfNode::IfNode()
 	: ifOperator("if"),
 	condition(nullptr),

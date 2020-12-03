@@ -1,11 +1,11 @@
 #pragma once
-#include "Node.h"
-#include "BoolNode.h"
-#include "IfNode.h"
-#include "MathNode.h"
-#include "LnNode.h"
-#include "LogNode.h"
-#include "NumNode.h"
+#include "Node.hpp"
+#include "BoolNode.hpp"
+#include "IfNode.hpp"
+#include "MathNode.hpp"
+#include "LnNode.hpp"
+#include "LogNode.hpp"
+#include "NumNode.hpp"
 
 
 class Expression

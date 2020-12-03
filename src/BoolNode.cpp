@@ -1,4 +1,4 @@
-#include "BoolNode.h"
+#include "BoolNode.hpp"
 
 BoolNode::BoolNode(const char& op)
 	: boolOperator(op)
