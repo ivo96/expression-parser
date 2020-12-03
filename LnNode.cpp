@@ -1,4 +1,4 @@
-#include "LnNode.h"
+#include "LnNode.hpp"
 
 LnNode::LnNode()
 	: lnOperator("ln"), numberLn(NULL)

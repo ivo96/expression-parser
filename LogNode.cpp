@@ -1,4 +1,4 @@
-#include "LogNode.h"
+#include "LogNode.hpp"
 
 LogNode::LogNode()
 	: logOperator("log"), numberLog(NULL), baseLog(NULL)

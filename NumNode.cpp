@@ -1,4 +1,4 @@
-#include "NumNode.h"
+#include "NumNode.hpp"
 
 NumNode::NumNode(int& val)
 	: numValue(val)
